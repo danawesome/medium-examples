@@ -1,7 +1,7 @@
 // FOR paste into a console of source SharePoint site:
 const DEST_DOMAIN = 'http://[destinationsite].domain.net'
 async function getDigest(){
-	let url = `${DEST_DOMAIN}}/_api/contextinfo`;
+	let url = `${DEST_DOMAIN}/_api/contextinfo`;
 	return fetch(url,{
 		method:'post',
 		credentials:'include',
